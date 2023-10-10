@@ -20,8 +20,8 @@ class MyString:
         return True if self._value.endswith('.') else False
     
     def is_question(self):
-        return True if self._value.endswith('?') else False
     
+        return True if self._value.endswith('?') else False
     def is_exclamation(self):
         return True if self._value.endswith('!') else False
 
@@ -36,22 +36,4 @@ class MyString:
         length = len(clean)
         # print(new) 
         return length
-
-
-
-# sent = MyString()
-# print(sent.count_sentences())
-
-
-
-
-
-
-
-
-
-
-
-
-
 
